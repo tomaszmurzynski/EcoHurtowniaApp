@@ -23,10 +23,14 @@ Wprowadzenie pozostałych parametrów z możliwością zapamiętania przy ponown
 - Hasło                                             >> standard EcoFlowers
 - Boolen Zapamiętaj
 Jeśli zmienna Boolen "Zapamiętaj" == true
-    Zapisz parametry do bazy danych TinyDBLgin jako:
+
+    Zapisz parametry do bazy danych TinyDBLogin jako:
     - Login
     - Password
+    
 Jeśli zmienna Boolen "Zapamiętaj" == false
+
+    Nie zapisuj parametrów do bazy
 
 Zatwierdź przyciskiem "Zaloguj"
 
