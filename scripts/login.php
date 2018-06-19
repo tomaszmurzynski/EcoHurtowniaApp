@@ -3,7 +3,7 @@
 $login = $_GET['login'];
 $password = $_GET['password'];
 
-$numberOfStore = "'http://sklep" . $_GET['numberOfStore'] . ".home.pl/webapi/json/'";
+$numberOfStore = "'https://sklep" . $_GET['numberOfStore'] . ".home.pl/webapi/json/'";
 $c = curl_init();
 curl_setopt($c, CURLOPT_URL, $numberOfStore);
 curl_setopt($c, CURLOPT_POST, true);
@@ -30,7 +30,7 @@ if (isset($result['error'])){
 	$session = $result[0];
 	echo "Identyfikator sesji użytkownika: " . $session;
 }
-
  
 curl_close($c);
+ 
 ?>

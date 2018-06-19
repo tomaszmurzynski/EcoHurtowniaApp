@@ -1,4 +1,12 @@
-# EcoHurtowniaApp
+﻿# EcoHurtowniaApp
+
+Quest 1.0
+
+>> Sklep internetowy ClickShop
+
+W sklepie ClickShop stworzyć użytkownika z dostępem do webApi
+
+
 
 Quest 1.1
 
@@ -39,7 +47,12 @@ Quest 1.3
 
 >> Sprawdzenie poprawności danych
 
+Stworzyć skrypt PHP o nazwie login.php który będzie łączył się z sklepem internetowym ClickShop wykorzystując wcześniej wprowadzone dane.
+Skrypt po wykonaniu powinien zwracać numer rozpoczętej sesji.
+
+Numer sesji należy zapisać w bazie danych tinyDBLogin jako:
+
+	- Session 
 
 
 
-    
