@@ -1,11 +1,8 @@
-<?php
-//Insert Data
+﻿<?php
 $login = $_GET['login'];
-$password = $_GET['password'];
-
-$numberOfStore = "'https://sklep" . $_GET['numberOfStore'] . ".home.pl/webapi/json/'";
+$password = $_GET['password']; 
 $c = curl_init();
-curl_setopt($c, CURLOPT_URL, $numberOfStore);
+curl_setopt($c, CURLOPT_URL, 'http://sklep1796123.home.pl/webapi/json/');
 curl_setopt($c, CURLOPT_POST, true);
 curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
  
@@ -28,9 +25,8 @@ if (isset($result['error'])){
 } else {
 	// wyświetlenie wyniku
 	$session = $result[0];
-	echo "Identyfikator sesji użytkownika: " . $session;
+	echo $session;
 }
- 
+
 curl_close($c);
- 
 ?>
