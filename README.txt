@@ -55,4 +55,12 @@ Numer sesji należy zapisać w bazie danych tinyDBLogin jako:
 	- Session 
 
 
+Quest 1.3.1   /// future
+
+>> Przypomnienie hasła
+
+
+
+
+
 
