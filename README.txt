@@ -60,6 +60,15 @@ Quest 1.3.1   /// future
 >> Przypomnienie hasła
 
 
+Quest 1.4
+
+
+>> Tworzenie barcodów
+
+
+
+
+
 
 
 
