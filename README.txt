@@ -60,10 +60,34 @@ Quest 1.3.1   /// future
 >> Przypomnienie hasła
 
 
-Quest 1.4
+Quest 2.1
 
 
 >> Tworzenie barcodów
+
+Quest 2.2
+
+>> Stworzenie standardowych wzorców dla barcode, takich jak :
+- Wszystkie produkty aktywne po 1 szt barcodu
+- Wszystkie produkty aktywne w ilości produktów w magazynie
+
+
+Quest 2.3
+
+>> Zapisywanie pliku z barcode na serwerze ftp.ecoflowers.nazwa.pl/EcoFlowers
+
+Quest 2.4
+
+>> Stworzenie filtrów dla generatora barcodów 
+- Wybieranie produktu po id i dodawanie go do listy generatora barkodów
+
+Quest 2.5    /// future 
+
+>> Stworz barcody od produktu o numerze id do ostatnio dodanego produktu, według daty.
+
+		
+
+
 
 
 
