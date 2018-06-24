@@ -54,7 +54,8 @@ if ($session != null) {
     // sprawdzenie, czy wystąpił błąd
     if (isset($result['error'])) {
         echo "Wystąpił błąd: " . $result['error'] . ", kod: " . $result['code'];
-    } else {
+    } 
+	else {
         foreach ($result as $item) {
             $product = (Array)$item;
 			$stock = (Array)$product['stock'];
@@ -63,24 +64,27 @@ if ($session != null) {
 			$translations = (Array)$product['translations'];
             $translPL = (Array)$translations['pl_PL'];
 			if ($translPL['active'] == 1) {
-			
-			
-			
-			$product = (Array)$item;
- 
-            echo $product['product_id'] . "<br>";
- 
-            $translations = (Array)$product['translations'];
-            $translPL = (Array)$translations['pl_PL'];
-            echo $translPL['name'] . "<br>";
- 
-            $stock = (Array)$product['stock'];
-            echo $stock['price'] . "<br>";
-            echo $stock['stock'] . "<br>";
-            echo "</n>";
-        }}
+				// dla wiekszych ilosci w magazynie
+				for ($i=1;$i<=$mag;$i++){
+					
+					$product = (Array)$item;
+		 
+					echo $product['product_id'] . "<br>";
+		 
+					$translations = (Array)$product['translations'];
+					$translPL = (Array)$translations['pl_PL'];
+					echo $translPL['name'] . "<br>";
+		 
+					$stock = (Array)$product['stock'];
+					echo $stock['price'] . "<br>";
+					echo $stock['stock'] . "<br>";
+					echo "</n>";
+				}
+			}
+		}
     }
-} else {
+} 
+else {
     echo "Wystąpił błąd logowania";
 }
  
