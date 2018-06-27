@@ -1,0 +1,74 @@
+#nameOfPrint{
+    text-align: center;
+}
+
+#logo{
+    text-align: center;
+}
+
+#companyInfo{
+    text-align: center;
+}
+
+#date{
+    text-align: left;
+}
+
+#numberOfPrint{
+    text-align: right;
+}
+
+#productName{
+    text-align: left;
+}
+
+#productBill{
+    text-align: right
+}
+
+#separator{
+    border: none;
+    border-bottom: 5px dashed black;
+}
+
+#sellerInfo{
+    text-align: left;
+}
+
+
+#time{
+    text-align: right;
+}
+
+#sessionId{
+    text-align: center;
+}
+
+#paymantInfo{
+    text-align: left;
+}
+
+#paymentInfoRight{
+    text-align: right;
+}
+
+#togetherPrice{
+    text-align: left;
+}
+
+#togetherPriceRight{
+    text-align: right;
+}
+
+#cashToBack{
+    text-align: left;
+}
+
+#cashToBackRight{
+    text-align: right;
+}
+
+#separator1{
+    border: none;
+    border-bottom: 5px double black;
+}
