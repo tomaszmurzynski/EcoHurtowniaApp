@@ -93,7 +93,14 @@ Quest 6.1
 >> Jeśli stan magazynowy == 0 ustaw produkt jako nieaktywny
 		
 
+Quest 7.1
 
+>> Stworz framework paraagonu
+
+Quest 7.2
+
+>> Dodaj grafiki do paragonu
+- Logo
 
 
 
