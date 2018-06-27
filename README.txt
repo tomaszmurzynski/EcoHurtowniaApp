@@ -85,6 +85,12 @@ Quest 2.5    /// future
 
 >> Stworz barcody od produktu o numerze id do ostatnio dodanego produktu, według daty.
 
+
+
+Quest 6.1
+
+>> Zapisz stan produktu po sprzedazy, aktualizujac stan magazynowy
+>> Jeśli stan magazynowy == 0 ustaw produkt jako nieaktywny
 		
 
 
