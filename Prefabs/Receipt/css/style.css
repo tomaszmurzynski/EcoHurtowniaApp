@@ -6,7 +6,7 @@
     text-align: left;
 }
 
-#numberOfPrint, #productBill, #time, #paymentInfoRight, #togetherPriceRight, #cashToBackRight{
+#numberOfPrint, #productBill, #time, #paymentInfoRight, #togetherPriceRight, #cashToBackRight, #taxInfoRight, #sumaRight{
     text-align: right;
 }
 
@@ -21,5 +21,9 @@
 }
 
 .container{
-    max-width: 300px;
+    max-width: 250px;
+}
+
+body{
+    font-size: 8px;
 }
